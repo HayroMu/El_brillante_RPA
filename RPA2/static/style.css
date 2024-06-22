@@ -1,0 +1,87 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #6ED5FB;
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    background-color: #55A6EA;
+    color: #030303;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    max-height: 50px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilos de la sección principal */
+  .hero {
+    background-image: url('https://scontent.flim7-1.fna.fbcdn.net/v/t39.30808-6/448318480_1107928420269272_2856157383874901620_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=lya71zQEXr4Q7kNvgG7xahv&_nc_ht=scontent.flim7-1.fna&oh=00_AYAXzKApV4cs-ESmLsqaFs2YSo1VsdF6AI7WaWmniK9cGQ&oe=667ACC90');
+    background-size: cover;
+    background-position: center;
+    color: #030303;
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 24px;
+  }
+  
+  .sales-data {
+    padding: 40px 20px;
+  }
+  
+  .sales-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+  }
+  
+  .sales-item {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sales-item h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Estilos del pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }

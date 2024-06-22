@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Minimarket El Brillante</title>
+  <link rel="stylesheet" type="text/css" href="static/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="static/script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="https://scontent.flim7-1.fna.fbcdn.net/v/t1.6435-9/54217423_126906708371453_82565923017326592_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=8-Ww9QnbI5cQ7kNvgEQY6V_&_nc_ht=scontent.flim7-1.fna&oh=00_AYD8pCPQUtP6J5nSmldIBWZfT3-x3TLsH9n0mUZsH3NAtA&oe=669C8920" alt="Minimarket El Brillante">
+    </div>
+    <nav>
+      <ul>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="hero">
+      <h1></h1>
+      <p></p>
+    </section>
+    
+    <section class="sales-data">
+      <h2>Datos de Ventas</h2>
+      <div class="sales-container">
+        <div class="sales-item">
+          <h3>Ventas vs Objetivo Mes</h3>
+          <canvas id="salesVsObjectiveChart"></canvas>
+        </div>
+        <div class="sales-item">
+          <h3>Cantidad vs Objetivo Mes</h3>
+          <canvas id="quantityVsObjectiveChart"></canvas>
+        </div>
+        <div class="sales-item">
+          <h3>Cantidad Vendida por Producto</h3>
+          <canvas id="productSalesChart"></canvas>
+        </div>
+        <div class="sales-item">
+          <h3>Monto Total por Producto</h3>
+          <canvas id="productRevenueChart"></canvas>
+        </div>
+        <div class="sales-item">
+          <h3>% Venta</h3>
+          <canvas id="salesPercentageChart"></canvas>
+        </div>
+        <div class="sales-item">
+          <h3>Top 10 Productos más Vendidos</h3>
+          <div id="top_products_chart"></div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="dynamic-image">
+      <h2>Gráfico Dinámico</h2>
+      <div id="dynamicChartContainer">
+        <img id="graficoImagen" src="" alt="Gráfico dinámico">
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2024 Minimarket El Brillante. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
